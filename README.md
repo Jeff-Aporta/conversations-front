@@ -24,7 +24,7 @@ Explorador web de **conversaciones persistidas** en Neon (`BD_CONVERSACIONES`). 
 
 - **Lista / detalle** de conversaciones almacenadas en PostgreSQL (Neon).
 - **LoginGate** con JWT de system-login antes de consultar datos.
-- **Recarga manual** y switch **local :8787 / online** (`conversations.jeffaporta.workers.dev`).
+- **Recarga manual** y switch **local :8785 / online** (`conversations.jeffaporta.workers.dev`).
 - Layout de dos paneles (lista + detalle) con scroll contenido, sin desbordar `body`.
 
 LangLab puede seguir escribiendo conversaciones vía su cliente HTTP apuntando al mismo Worker.
@@ -33,7 +33,7 @@ LangLab puede seguir escribiendo conversaciones vía su cliente HTTP apuntando a
 
 ```bash
 npx serve .
-# conversations-back → npm run dev (puerto 8787)
+# conversations-back → npm run dev (puerto 8785)
 ```
 
 ## Repos relacionados
