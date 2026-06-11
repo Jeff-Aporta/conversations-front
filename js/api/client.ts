@@ -1,6 +1,6 @@
 (function () {
   "use strict";
-  /** Conversaciones Paty — rutas /conversaciones, /conversacion/:id vía gateway. */
+  /** Conversaciones Paty — rutas /api/* vía gateway. */
   async function api<T>(path: string, init?: RequestInit): Promise<T> {
     const res = await fetch(window.CONV.Config.apiUrl(path), {
       ...init,
@@ -14,10 +14,10 @@
   window.CONV = window.CONV || ({} as ConvNs);
   window.CONV.Api = {
     list: (itercero?: string, icontacto?: string) =>
-      api("/conversaciones?itercero=" + encodeURIComponent(itercero || "lab") + "&icontacto=" + encodeURIComponent(icontacto || "lab")),
-    get: (id: number) => api("/conversacion/" + id),
-    create: () => api("/conversaciones", { method: "POST", body: "{}" }),
-    instrucciones: () => api("/instrucciones"),
-    tipos: () => api("/tipos-consulta"),
+      api("/api/conversaciones?itercero=" + encodeURIComponent(itercero || "lab") + "&icontacto=" + encodeURIComponent(icontacto || "lab")),
+    get: (id: number) => api("/api/conversacion/" + id),
+    create: () => api("/api/conversaciones", { method: "POST", body: "{}" }),
+    instrucciones: () => api("/api/instrucciones"),
+    tipos: () => api("/api/tipos-consulta"),
   };
 })();

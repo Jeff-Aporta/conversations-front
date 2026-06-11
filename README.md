@@ -6,6 +6,17 @@
 
 <p align="center"><strong>Explorador de conversaciones PatyIA</strong> — hilos persistidos en Neon, detalle de mensajes e instrucciones IA.</p>
 
+## Arquitectura
+
+```mermaid
+flowchart LR
+  F[conversations-front]
+  ORCH[main-orchestrator]
+  API[conversations Worker]
+  DB[(Neon)]
+  F -->|/api/conversaciones| ORCH --> API --> DB
+```
+
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-2ea44f?logo=githubpages&logoColor=white)](https://jeff-aporta.github.io/conversations-front/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![Cloudflare Workers](https://img.shields.io/badge/API-Cloudflare%20Workers-F38020?logo=cloudflare&logoColor=white)](https://github.com/Jeff-Aporta/conversations-back)
