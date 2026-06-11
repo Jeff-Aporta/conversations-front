@@ -16,6 +16,10 @@ Explorador web de **conversaciones persistidas** en Neon (`BD_CONVERSACIONES`). 
 
 **https://jeff-aporta.github.io/conversations-front/**
 
+## Vista previa
+
+![Explorador de conversaciones](./docs/gh-pages.png)
+
 ## Qué hace
 
 - **Lista / detalle** de conversaciones almacenadas en PostgreSQL (Neon).
