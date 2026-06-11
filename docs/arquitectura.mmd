@@ -1,0 +1,6 @@
+flowchart LR
+  F[conversations-front]
+  ORCH[main-orchestrator]
+  API[conversations Worker]
+  DB[(Neon)]
+  F -->|/api/conversaciones| ORCH --> API --> DB
