@@ -28,7 +28,7 @@
 
 - **Lista / detalle** de conversaciones almacenadas en PostgreSQL (Neon).
 - **LoginGate** con JWT de system-login antes de consultar datos.
-- **Recarga manual** y switch **orquestador local :8780 / producción**.
+- **Recarga manual** y switch **local / producción** (TargetSwitch).
 - Layout de dos paneles (lista + detalle) con scroll contenido.
 
 ## Metadatos
@@ -39,7 +39,7 @@ Icono: `mdi:forum-outline` · tema `#6a1b9a` · [`JeffAppMeta`](https://github.c
 
 ```bash
 npx serve .
-# main-orchestrator en :8780
+# TargetSwitch → modo local si desarrollas backends en wrangler dev
 ```
 
 ## Repos relacionados
