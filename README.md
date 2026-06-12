@@ -19,17 +19,11 @@
 
 ## Qué hace
 
-- **Lista / detalle** de conversaciones persistidas
-- **Login** antes de consultar datos
-- **Recarga manual** y modo local o producción
+- **Lista / detalle** de conversaciones
+- **Recarga manual** del listado
 - Layout de dos paneles (lista + detalle) con scroll contenido
+- **Tema** claro/oscuro
 
 Icono: `mdi:forum-outline` · tema `#6a1b9a`
-
-## Vista local
-
-```bash
-npx serve .
-```
 
 MIT · [Jeff-Aporta](https://github.com/Jeff-Aporta)
