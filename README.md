@@ -25,5 +25,3 @@
 - **Tema** claro/oscuro
 
 Icono: `mdi:forum-outline` · tema `#6a1b9a`
-
-MIT · [Jeff-Aporta](https://github.com/Jeff-Aporta)
