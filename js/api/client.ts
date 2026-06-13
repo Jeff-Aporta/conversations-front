@@ -1,6 +1,6 @@
 (function () {
   "use strict";
-  /** Conversaciones Paty — rutas /api/* vía gateway. */
+  /** Conversations API — rutas /api/* vía gateway. */
   async function api<T>(path: string, init?: RequestInit): Promise<T> {
     const res = await fetch(window.CONV.Config.apiUrl(path), {
       ...init,

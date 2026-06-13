@@ -4,7 +4,7 @@
 
 <h1 align="center">conversations-front</h1>
 
-<p align="center"><strong>Explorador de conversaciones PatyIA</strong> — hilos, mensajes e instrucciones IA.</p>
+<p align="center"><strong>Explorador de conversaciones</strong> — hilos, mensajes, instrucciones y tipos de consulta.</p>
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-2ea44f?logo=githubpages&logoColor=white)](https://jeff-aporta.github.io/conversations-front/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)
