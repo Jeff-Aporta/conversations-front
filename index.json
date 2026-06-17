@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "title": "Conversations — Jeff-Aporta",
+    "applicationName": "Conversations",
+    "description": "Sistema de conversaciones: hilos, mensajes, instrucciones y tipos de consulta.",
+    "keywords": "conversaciones, LangLab, chat, Neon, Jeff-Aporta",
+    "themeColor": "#6a1b9a",
+    "themeLsKey": "conversations:theme",
+    "icon": "mdi:forum-outline",
+    "canonical": "https://jeff-aporta.github.io/conversations-front/",
+    "ogSiteName": "Jeff-Aporta — Conversations",
+    "ogTitle": "Conversations — Jeff-Aporta",
+    "imageAlt": "Conversations — hilos y mensajes"
+  },
+  "styles": [
+    "fonts-google",
+    "shared-base"
+  ],
+  "libs": []
+}
