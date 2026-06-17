@@ -74,8 +74,14 @@
       </MUI.Grid>
     );
 
+    React.useEffect(() => {
+      function onBrandHome() { setSelected(null); setErr(""); }
+      window.addEventListener("isa:brand-home", onBrandHome);
+      return () => window.removeEventListener("isa:brand-home", onBrandHome);
+    }, []);
+
     return (
-      <Shell ns="CONV" title="Conversaciones" icon="mdi:forum-outline" loginGate toolbarExtra={<MUI.Button size="small" onClick={reload}>Recargar</MUI.Button>}>
+      <Shell ns="CONV" loginGate toolbarExtra={<MUI.Button size="small" onClick={reload}>Recargar</MUI.Button>}>
         {panel}
       </Shell>
     );
