@@ -16,5 +16,16 @@
     "fonts-google",
     "shared-base"
   ],
-  "libs": []
+  "libs": [],
+  "readme": {
+    "tagline": "hilos, mensajes, instrucciones y tipos de consulta.",
+    "badges": ["github-pages", "react"],
+    "preview": { "path": "docs/gh-pages.png", "alt": "Explorador de conversaciones" },
+    "features": [
+      "**Lista / detalle** de conversaciones",
+      "**Recarga manual** del listado",
+      "Layout de dos paneles (lista + detalle) con scroll contenido",
+      "**Tema** claro/oscuro"
+    ]
+  }
 }
